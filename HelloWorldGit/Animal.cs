@@ -9,18 +9,32 @@ namespace HelloWorldGit
     class Animal
     {
         private double age;
+        private string name;
 
         public double Age
         {
             get
             {
-                Console.WriteLine("Run the getter");
+                //Console.WriteLine("Run the getter");
                 return this.age;
             }
             set
             {
                 this.age = value;
-                Console.WriteLine("Run the setter");
+                //Console.WriteLine("Run the setter");
+            }
+        }
+
+        public string Name
+        {
+            get
+            {
+                return name;
+            }
+
+            set
+            {
+                name = value;
             }
         }
     }
