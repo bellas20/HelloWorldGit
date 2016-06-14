@@ -15,6 +15,9 @@ namespace HelloWorldGit
             //Second Test
             //Git Testing
             Console.WriteLine("Hello world!");
+            Animal Dog = new Animal();
+            Dog.Age = 3;
+            Console.WriteLine(Dog.Age);
         }
     }
 }
